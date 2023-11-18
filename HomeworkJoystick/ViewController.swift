@@ -8,10 +8,41 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let joystickView = {
+        let joystickView = JoystickView()
+        joystickView.translatesAutoresizingMaskIntoConstraints = false
+        
+        return joystickView
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        view.addSubview(joystickView)
+        
+        NSLayoutConstraint.activate([
+        
+            joystickView.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor),
+            joystickView.centerYAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerYAnchor)
+            
+        ])
+        
+        joystickView.closureButtonUp = { [weak self] _ in
+           
+        }
+        
+        joystickView.closureButtonDown = { [weak self] _ in
+            
+        }
+        
+        joystickView.closureButtonLeft = { [weak self] _ in
+            
+        }
+        
+        joystickView.closureButtonRight = { [weak self] _ in
+           
+        }
     }
 
 

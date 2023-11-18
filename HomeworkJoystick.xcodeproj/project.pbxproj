@@ -13,6 +13,7 @@
 		018DCC8B2B08F8670055204D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 018DCC892B08F8670055204D /* Main.storyboard */; };
 		018DCC8D2B08F8680055204D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018DCC8C2B08F8680055204D /* Assets.xcassets */; };
 		018DCC902B08F8680055204D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 018DCC8E2B08F8680055204D /* LaunchScreen.storyboard */; };
+		018DCC982B08F8E10055204D /* JoystickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018DCC972B08F8E10055204D /* JoystickView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		018DCC8C2B08F8680055204D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		018DCC8F2B08F8680055204D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		018DCC912B08F8680055204D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		018DCC972B08F8E10055204D /* JoystickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoystickView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				018DCC832B08F8670055204D /* AppDelegate.swift */,
 				018DCC852B08F8670055204D /* SceneDelegate.swift */,
 				018DCC872B08F8670055204D /* ViewController.swift */,
+				018DCC972B08F8E10055204D /* JoystickView.swift */,
 				018DCC892B08F8670055204D /* Main.storyboard */,
 				018DCC8C2B08F8680055204D /* Assets.xcassets */,
 				018DCC8E2B08F8680055204D /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				018DCC982B08F8E10055204D /* JoystickView.swift in Sources */,
 				018DCC882B08F8670055204D /* ViewController.swift in Sources */,
 				018DCC842B08F8670055204D /* AppDelegate.swift in Sources */,
 				018DCC862B08F8670055204D /* SceneDelegate.swift in Sources */,
